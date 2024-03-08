@@ -2,12 +2,15 @@
 #include <iostream>
 
 int main(int argc, char* argv[]) {
-    sf::RenderWindow window(sf::VideoMode(640, 480), "First window!");
+    sf::RenderWindow window(sf::VideoMode(640, 480), "Bouncing mushroom.");
 
-    sf::RectangleShape rectangle(sf::Vector2f(128.0f, 128.0f));
-    rectangle.setFillColor(sf::Color::Red);
-    rectangle.setPosition(320, 240);
-    rectangle.setOrigin(rectangle.getSize().x / 2, rectangle.getSize().y / 2);
+    sf::Texture mushroomTexture;
+    mushroomTexture.loadFromFile("Mueshroom.png");
+    
+    sf::Sprite mushroom(mushroomTexture);
+    sf::Vector2u size = mushroomTexture.getSize();
+    mushroom.setOrigin(size.x / 2, size.y / 2);
+    sf::Vector2f increment(0.4f, 0.4f);
 
     
     while (window.isOpen()) {
@@ -18,11 +21,28 @@ int main(int argc, char* argv[]) {
                 window.close();
             }
         }
+        if ((mushroom.getPosition().x + (size.x / 2) >
+            window.getSize().x && increment.x > 0) ||
+            (mushroom.getPosition().x - (size.x / 2) < 0 &&
+                increment.x < 0))
+        {
+            // Reverse the direction on X axis.
+            increment.x = -increment.x;
+        }
+        if ((mushroom.getPosition().y + (size.y / 2) >
+            window.getSize().y && increment.y > 0) ||
+            (mushroom.getPosition().y - (size.y / 2) < 0 &&
+                increment.y < 0))
+        {
+                // Reverse the direction on Y axis.
+                increment.y = -increment.y;
+        }
+        mushroom.setPosition(mushroom.getPosition() + increment);
 
-        window.clear(sf::Color::Black);
-        // Draw here.
-        window.draw(rectangle);
+        window.clear(sf::Color(16, 16, 16, 255)); // Dark gray.
+        window.draw(mushroom); // Drawing our sprite.
         window.display();
+
     }
 
     return 0;
