@@ -5,7 +5,7 @@ int main(int argc, char* argv[]) {
     sf::RenderWindow window(sf::VideoMode(640, 480), "Bouncing mushroom.");
 
     sf::Texture mushroomTexture;
-    mushroomTexture.loadFromFile("Mueshroom.png");
+    mushroomTexture.loadFromFile("Mushroom.png");
     
     sf::Sprite mushroom(mushroomTexture);
     sf::Vector2u size = mushroomTexture.getSize();
