@@ -1,7 +1,4 @@
-#pragma once
-#include <iostream>
 #include <SFML/Graphics.hpp>
-
 
 class Window {
 public:
@@ -27,4 +24,3 @@ private:
 	bool m_isDone;
 	bool m_isFullscreen;
 };
-
