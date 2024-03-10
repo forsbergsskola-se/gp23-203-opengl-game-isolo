@@ -2,19 +2,19 @@
 #include <SFML/Graphics.hpp>
 #include "Window.h"
 
-class Game
-{
+class Game {
 public:
     Game();
     ~Game();
 
     void HandleInput();
     void Update();
+    void Render();
     Window* GetWindow();
     sf::Time GetElapsed();
     void RestartClock();
 
-//private:
+private:
     void MoveMushroom();
 
     Window m_window;
@@ -23,7 +23,4 @@ public:
     sf::Vector2i m_increment;
     sf::Clock m_clock;
     sf::Time m_elapsed;
-
-    void Game::MoveMushroom();
-    void Game::Render();
 };

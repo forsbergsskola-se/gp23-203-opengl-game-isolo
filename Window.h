@@ -5,7 +5,7 @@ public:
     Window();
     Window(const std::string& l_title, const sf::Vector2u& l_size);
     ~Window();
-
+    
     void Setup(const std::string& l_title, const sf::Vector2u& l_size);
     void BeginDraw();
     void EndDraw();

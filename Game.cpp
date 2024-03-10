@@ -1,5 +1,7 @@
 #include "Game.h"
-
+Window* Game::GetWindow() {
+    return &m_window;
+}
 Game::Game()
     : m_window("Chapter 2", sf::Vector2u(800, 600))
     , m_mushroomTexture()
@@ -14,6 +16,10 @@ Game::Game()
 }
 
 Game::~Game() {}
+
+void Game::HandleInput()
+{
+}
 
 void Game::Update()
 {
