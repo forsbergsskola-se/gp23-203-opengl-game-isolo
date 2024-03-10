@@ -1,54 +1,29 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "Window.h"
 
-class Game {
+class Game
+{
 public:
-	Game();
-	~Game();
+    Game();
+    ~Game();
 
-	void HandleInput();
-	void Update();
-	Window* GetWindow();
+    void HandleInput();
+    void Update();
+    Window* GetWindow();
+    sf::Time GetElapsed();
+    void RestartClock();
 
-private:
-	void MoveMushroom();
-	Window m_window;
+//private:
+    void MoveMushroom();
 
-	Game::Game() : m_window("Chapter 2", sf::Vector2u(800, 600))
-	{
-		//Setting up class members.
-		m_mushroomTexture.loadFromFile("Mushroom.png");
-		m_mushroom.setTexture(m_mushroomTexture);
-		m_increment = sf::Vector2i(4, 4);
+    Window m_window;
+    sf::Texture m_mushroomTexture;
+    sf::Sprite m_mushroom;
+    sf::Vector2i m_increment;
+    sf::Clock m_clock;
+    sf::Time m_elapsed;
 
-		Game::~Game() {}
-	}
-	void Game::Update() {
-		m_window.Update(); //Update window events.
-		MoveMushroom();
-	}
-	void Game::MoveMushroom() {
-		sf::Vector2u l_windSize = m_window.GetWindowSize();
-		sf::Vector2u l_textSize = m_mushroomTexture.getSize();
-	}
-	if (m_mushroom.getPosition().y >
-		l_windSize.y - l_textSize.y && m_increment.y > 0) ||
-		(m_mushroom.getPosition().y < 0 && m_increment.y < 0))
-		{
-			m_increment.y = -m_increment.y;
-	}
-	m_mushroom.setPosition(
-		m_mushroom.getPosition().x + m_increment.x,
-		m_mushroom.getPosition().y + -m_increment.y;
-	)
-
-		m_mushroom.setPosition(
-			m_mushroom.getPosition().x + m_increment.x,
-			m_mushroom.getPosition().y + m_increment.y);
+    void Game::MoveMushroom();
+    void Game::Render();
 };
-void Game::Render() {
-	m_window.BeginDraw(); //Clear
-
-	m_window.Draw(m_mushroom);
-	m_window.EndDraw(); //Display.
-}
