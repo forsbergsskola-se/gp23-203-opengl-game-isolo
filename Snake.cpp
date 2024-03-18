@@ -1,5 +1,5 @@
 #include "Snake.h"
-#include <SFML/Graphics.hpp> // Added for sf::Vector2f, sf::RectangleShape, sf::Color
+#include <SFML/Graphics.hpp> 
 
 Snake::Snake(int l_blockSize) {
     m_size = l_blockSize;
@@ -14,7 +14,7 @@ void Snake::Reset() {
     m_snakeBody.push_back(SnakeSegment(5, 7));
     m_snakeBody.push_back(SnakeSegment(5, 6));
     m_snakeBody.push_back(SnakeSegment(5, 5));
-    SetDirection(Direction::None); // Start off still.
+    SetDirection(Direction::None); 
     m_speed = 15;
     m_lives = 3;
     m_score = 0;
@@ -39,9 +39,8 @@ void Snake::ToggleLost() { m_lost = !m_lost; }
 void Snake::Extend() {
     if (m_snakeBody.empty()) { return; }
     SnakeSegment& tail_head = m_snakeBody.back();
-    SnakeSegment tail_bone = m_snakeBody[m_snakeBody.size() - 2]; // Get the second-to-last segment
+    SnakeSegment tail_bone = m_snakeBody[m_snakeBody.size() - 2]; 
 
-    // Extend the snake based on its current direction
     if (m_dir == Direction::Up) {
         m_snakeBody.push_back(SnakeSegment(tail_head.position.x, tail_head.position.y + 1));
     }
