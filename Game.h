@@ -1,6 +1,6 @@
 #pragma once
-#include <SFML/Graphics.hpp>
 #include "Window.h"
+#include <SFML/Graphics.hpp>
 
 class Game {
 public:
@@ -10,16 +10,12 @@ public:
     void HandleInput();
     void Update();
     void Render();
-    Window* GetWindow();
     sf::Time GetElapsed();
     void RestartClock();
+    Window* GetWindow();
 
-private:
-    void MoveMushroom();
-
-    Window m_window;
-    sf::Texture m_mushroomTexture;
-    sf::Sprite m_mushroom;
+public:
+   Window m_window;
     sf::Vector2i m_increment;
     sf::Clock m_clock;
     sf::Time m_elapsed;

@@ -24,7 +24,7 @@ public:
     int GetScore();
     void IncreaseScore();
     bool HasLost();
-    void Lose(); 
+    void Lose();
     void ToggleLost();
     void Extend(); 
     void Reset(); 

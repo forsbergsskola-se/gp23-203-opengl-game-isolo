@@ -1,13 +1,16 @@
 #include "Window.h"
 
-Window::Window() { Setup("Window", sf::Vector2u(640, 480)); }
+Window::Window() {
+    Setup("Window", sf::Vector2u(640, 480));
+}
 
 Window::Window(const std::string& l_title, const sf::Vector2u& l_size) {
     Setup(l_title, l_size);
-    
 }
 
-Window::~Window() { Destroy(); }
+/*Window::~Window() {
+    Destroy();
+}*/
 
 void Window::Setup(const std::string& l_title, const sf::Vector2u& l_size) {
     m_windowTitle = l_title;
@@ -67,4 +70,8 @@ sf::Vector2u Window::GetWindowSize() {
 
 void Window::Draw(sf::Drawable& l_drawable) {
     m_window.draw(l_drawable);
+}
+
+void Window::Clear(const sf::Color& color) {
+    m_window.clear(color);
 }
