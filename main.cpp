@@ -1,15 +1,24 @@
 #include <SFML/Graphics.hpp>
-#include "Game.h"
-int main() {
-    const float IncrementSpeed = 0.5f;
-    Game game;
 
-    while (!game.GetWindow()->IsDone()) {
-        game.HandleInput();
-        game.Update();
-        game.Render();
+int main()
+{
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    sf::CircleShape shape(100.f);
+    shape.setFillColor(sf::Color::Green);
 
-        sf::sleep(sf::seconds(1.0f / 60.0f));
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        window.clear();
+        window.draw(shape);
+        window.display();
     }
+
     return 0;
 }
