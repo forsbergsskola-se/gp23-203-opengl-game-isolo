@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\shaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:shaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\default.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:default.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\light.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A38D66D7-B04E-419D-9902-29676D148D4A}|LearningOpenGL.vcxproj|solutionrelative:light.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Texture.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.h",
+              "RelativeDocumentMoniker": "Texture.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.h",
+              "RelativeToolTip": "Texture.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-28T21:54:36.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Mesh.h",
+              "RelativeDocumentMoniker": "Mesh.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Mesh.h",
+              "RelativeToolTip": "Mesh.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-28T21:54:23.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Model.h",
+              "RelativeDocumentMoniker": "Model.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Model.h",
+              "RelativeToolTip": "Model.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-28T21:54:15.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "shaderClass.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\shaderClass.h",
+              "RelativeDocumentMoniker": "shaderClass.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\shaderClass.h",
+              "RelativeToolTip": "shaderClass.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-28T21:54:09.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "default.frag",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\default.frag",
+              "RelativeDocumentMoniker": "default.frag",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\default.frag",
+              "RelativeToolTip": "default.frag",
+              "ViewState": "AQIAADUAAAAAAAAAAAAkwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-28T21:37:01.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "light.frag",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\light.frag",
+              "RelativeDocumentMoniker": "light.frag",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\light.frag",
+              "RelativeToolTip": "light.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-28T21:36:58.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-28T19:54:07.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
