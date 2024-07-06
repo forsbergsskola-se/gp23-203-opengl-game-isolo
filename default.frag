@@ -32,9 +32,9 @@ vec4 pointLight()
 
 	// intensity of light with respect to distance
 	float dist = length(lightVec);
-	float a = 3.0;
+	float a = 5.0;
 	float b = 0.7;
-	float inten = 1.0f / (a * dist * dist + b * dist + 1.0f);
+	float inten = 2.0f / (a * dist * dist + b * dist + 1.0f);
 
 	// ambient lighting
 	float ambient = 0.20f;
@@ -77,8 +77,8 @@ vec4 direcLight()
 vec4 spotLight()
 {
 	// controls how big the area that is lit up is
-	float outerCone = 0.90f;
-	float innerCone = 0.95f;
+	float outerCone = 0.20f;
+	float innerCone = 0.5f;
 
 	// ambient lighting
 	float ambient = 0.20f;
@@ -102,9 +102,23 @@ vec4 spotLight()
 	return (texture(diffuse0, texCoord) * (diffuse * inten + ambient) + texture(specular0, texCoord).r * specular * inten) * lightColor;
 }
 
+float near = 0.1f;
+float far = 100.0f;
+
+float linearizeDepth(float depth)
+{
+	return (2.0 * near * far) / (far + near - (depth * 2.0 - 1.0) * (far - near));
+}
+
+float logisticDepth(float depth, float steepness = 1.0f, float offset = 5.0f)
+{
+	float zVal = linearizeDepth(depth);
+	return (1 / (1 + exp(-steepness * (zVal - offset))));
+}
 
 void main()
 {
 	// outputs final color
-	FragColor = direcLight();
+	float depth = logisticDepth(gl_FragCoord.z);
+	FragColor = direcLight() * (1.0f - depth) + vec4(depth * vec3(0.5f, 0.5f, 0.5f), 1.0f);
 }

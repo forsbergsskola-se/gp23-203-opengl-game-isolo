@@ -147,45 +147,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="lightGenerator.cpp" />
+    <ClCompile Include="LightingBox.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Model.cpp" />
-    <ClCompile Include="shaderClass.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="stb.cpp" />
-    <ClCompile Include="Texture.cpp" />
     <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cubemaps.frag" />
+    <None Include="cubemaps.vert" />
     <None Include="default.frag" />
     <None Include="default.vert" />
     <None Include="light.frag" />
     <None Include="light.vert" />
+    <None Include="skybox.frag" />
+    <None Include="skybox.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="EBO.h" />
-    <ClInclude Include="lightGenerator.h" />
+    <ClInclude Include="LightingBox.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
-    <ClInclude Include="shaderClass.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="VAO.h" />
     <ClInclude Include="VBO.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\back.jpg" />
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\bottom.jpg" />
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\container.jpg" />
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\front.jpg" />
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\left.jpg" />
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\right.jpg" />
+    <Image Include="..\..\..\..\..\OpenGLProject\LearningOpenGL\top.jpg" />
     <Image Include="..\..\Users\Kal-E\Downloads\brick.png" />
     <Image Include="..\..\Users\Kal-E\OneDrive\Bilder\Textures\butterfly.png" />
     <Image Include="..\..\Users\Kal-E\OneDrive\Bilder\Textures\planks.png" />
     <Image Include="..\..\Users\Kal-E\OneDrive\Bilder\Textures\TextureImug.png" />
     <Image Include="..\..\Users\Kal-E\OneDrive\Bilder\Textures\woodFloor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="custom_shape.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
