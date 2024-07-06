@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\OpenGLProject\\HelloShader\\",
+  "WorkspaceRootPath": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeDefiner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeDefiner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeDefiner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeDefiner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\CubeTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:CubeTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\CubeTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:CubeTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\TriangleShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:TriangleShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\TriangleShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:TriangleShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\SkyBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\SkyBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:SkyBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\skybox.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:skybox.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\skybox.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:skybox.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\cubemap.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:cubemap.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\cubemap.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:cubemap.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\triangle.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:triangle.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\triangle.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:triangle.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -100,35 +100,33 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Camera.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Camera.cpp",
               "RelativeDocumentMoniker": "Camera.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Camera.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Camera.cpp",
               "RelativeToolTip": "Camera.cpp",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-06T11:59:25.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T11:59:25.077Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Window.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Window.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.cpp",
               "RelativeDocumentMoniker": "Window.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Window.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.cpp",
               "RelativeToolTip": "Window.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-05T23:09:58.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T23:09:58.934Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "cubemap.vert",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\cubemap.vert",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.vert",
               "RelativeDocumentMoniker": "cubemap.vert",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\cubemap.vert",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.vert",
               "RelativeToolTip": "cubemap.vert",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -138,9 +136,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "cubemap.frag",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\cubemap.frag",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.frag",
               "RelativeDocumentMoniker": "cubemap.frag",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\cubemap.frag",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.frag",
               "RelativeToolTip": "cubemap.frag",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -150,9 +148,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "triangle.frag",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\triangle.frag",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.frag",
               "RelativeDocumentMoniker": "triangle.frag",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\triangle.frag",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.frag",
               "RelativeToolTip": "triangle.frag",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -162,9 +160,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "skybox.frag",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\skybox.frag",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.frag",
               "RelativeDocumentMoniker": "skybox.frag",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\skybox.frag",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.frag",
               "RelativeToolTip": "skybox.frag",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -174,128 +172,119 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ShapeDefiner.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.cpp",
               "RelativeDocumentMoniker": "ShapeDefiner.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.cpp",
               "RelativeToolTip": "ShapeDefiner.cpp",
               "ViewState": "AQIAAHIAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-05T22:36:11.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T22:36:11.537Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ShapeDefiner.h",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.h",
               "RelativeDocumentMoniker": "ShapeDefiner.h",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.h",
               "RelativeToolTip": "ShapeDefiner.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-05T22:36:07.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T22:36:07.838Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CubeTexture.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\CubeTexture.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.cpp",
               "RelativeDocumentMoniker": "CubeTexture.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\CubeTexture.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.cpp",
               "RelativeToolTip": "CubeTexture.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-05T22:00:46.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T22:00:46.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CubeTexture.h",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\CubeTexture.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.h",
               "RelativeDocumentMoniker": "CubeTexture.h",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\CubeTexture.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.h",
               "RelativeToolTip": "CubeTexture.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-05T21:39:15.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T21:39:15.268Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Window.h",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Window.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.h",
               "RelativeDocumentMoniker": "Window.h",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Window.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.h",
               "RelativeToolTip": "Window.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-05T16:49:10.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T16:49:10.454Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "TriangleShader.h",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\TriangleShader.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.h",
               "RelativeDocumentMoniker": "TriangleShader.h",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\TriangleShader.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.h",
               "RelativeToolTip": "TriangleShader.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-05T16:38:27.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T16:38:27.215Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ShapeGenerator.h",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.h",
               "RelativeDocumentMoniker": "ShapeGenerator.h",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.h",
               "RelativeToolTip": "ShapeGenerator.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-04T23:07:56.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T23:07:56.158Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ShapeGenerator.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp",
               "RelativeDocumentMoniker": "ShapeGenerator.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp",
               "RelativeToolTip": "ShapeGenerator.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T23:06:01.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T23:06:01.87Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "TriangleShader.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\TriangleShader.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.cpp",
               "RelativeDocumentMoniker": "TriangleShader.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\TriangleShader.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.cpp",
               "RelativeToolTip": "TriangleShader.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T22:18:48.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T22:18:48.226Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Texture.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Texture.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.cpp",
               "RelativeDocumentMoniker": "Texture.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Texture.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.cpp",
               "RelativeToolTip": "Texture.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-06T00:55:39.043Z",
               "EditorCaption": ""
@@ -304,35 +293,33 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\main.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
               "RelativeToolTip": "main.cpp",
               "ViewState": "AQIAABYAAAAAAAAAAAAIwD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-28T22:48:58.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T22:48:58.445Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "SkyBox.cpp",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\SkyBox.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\SkyBox.cpp",
               "RelativeDocumentMoniker": "SkyBox.cpp",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\SkyBox.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\SkyBox.cpp",
               "RelativeToolTip": "SkyBox.cpp",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-06T11:59:41.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T11:59:41.361Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Texture.h",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Texture.h",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.h",
               "RelativeDocumentMoniker": "Texture.h",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Texture.h",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Texture.h",
               "RelativeToolTip": "Texture.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -342,9 +329,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "skybox.vert",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\skybox.vert",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.vert",
               "RelativeDocumentMoniker": "skybox.vert",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\skybox.vert",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.vert",
               "RelativeToolTip": "skybox.vert",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -354,9 +341,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "triangle.vert",
-              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\triangle.vert",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.vert",
               "RelativeDocumentMoniker": "triangle.vert",
-              "ToolTip": "C:\\OpenGLProject\\HelloShader\\triangle.vert",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.vert",
               "RelativeToolTip": "triangle.vert",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
