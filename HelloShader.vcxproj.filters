@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\TriangleShader">
+      <UniqueIdentifier>{6011f987-1c62-4b91-ac60-06cc1f74b3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{7ccb8da7-5a89-49e4-83f1-5af2328e7701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Skybox">
+      <UniqueIdentifier>{7eb6fdf6-614e-4aa7-9cf1-ddea8c6c019f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeDefiner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeDefiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="WindowDoc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="triangle.vert">
+      <Filter>Resource Files\TriangleShader</Filter>
+    </None>
+    <None Include="triangle.frag">
+      <Filter>Resource Files\TriangleShader</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Resource Files\TriangleShader</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Resource Files\TriangleShader</Filter>
+    </None>
+    <None Include="cubemap.vert">
+      <Filter>Resource Files\TriangleShader</Filter>
+    </None>
+    <None Include="cubemap.frag">
+      <Filter>Resource Files\TriangleShader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="TextureImug.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="woodFloor.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="grassGround.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="greenGrass.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="SilverPattern.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="galaxySkybox.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="daySkybox.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="nightSky1.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="steelBox.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\LearningOpenGL\bottom.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="..\LearningOpenGL\back.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="..\LearningOpenGL\front.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="..\LearningOpenGL\right.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="nightSnow.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="brushedMetal.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="frozenSnow.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

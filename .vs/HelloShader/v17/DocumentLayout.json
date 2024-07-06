@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\OpenGLProject\\HelloShader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeDefiner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeDefiner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeDefiner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeDefiner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\CubeTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:CubeTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\CubeTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:CubeTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\TriangleShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:TriangleShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\TriangleShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:TriangleShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\SkyBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:SkyBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\skybox.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:skybox.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\skybox.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:skybox.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\cubemap.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:cubemap.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\cubemap.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:cubemap.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\triangle.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:triangle.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\OpenGLProject\\HelloShader\\triangle.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:triangle.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Camera.cpp",
+              "RelativeDocumentMoniker": "Camera.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Camera.cpp",
+              "RelativeToolTip": "Camera.cpp",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-06T11:59:25.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Window.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Window.cpp",
+              "RelativeDocumentMoniker": "Window.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Window.cpp",
+              "RelativeToolTip": "Window.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T23:09:58.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "cubemap.vert",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\cubemap.vert",
+              "RelativeDocumentMoniker": "cubemap.vert",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\cubemap.vert",
+              "RelativeToolTip": "cubemap.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T23:07:28.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "cubemap.frag",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\cubemap.frag",
+              "RelativeDocumentMoniker": "cubemap.frag",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\cubemap.frag",
+              "RelativeToolTip": "cubemap.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T23:07:22.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "triangle.frag",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\triangle.frag",
+              "RelativeDocumentMoniker": "triangle.frag",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\triangle.frag",
+              "RelativeToolTip": "triangle.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T22:41:20.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "skybox.frag",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\skybox.frag",
+              "RelativeDocumentMoniker": "skybox.frag",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\skybox.frag",
+              "RelativeToolTip": "skybox.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T22:41:16.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShapeDefiner.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.cpp",
+              "RelativeDocumentMoniker": "ShapeDefiner.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.cpp",
+              "RelativeToolTip": "ShapeDefiner.cpp",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T22:36:11.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShapeDefiner.h",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.h",
+              "RelativeDocumentMoniker": "ShapeDefiner.h",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeDefiner.h",
+              "RelativeToolTip": "ShapeDefiner.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T22:36:07.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CubeTexture.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\CubeTexture.cpp",
+              "RelativeDocumentMoniker": "CubeTexture.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\CubeTexture.cpp",
+              "RelativeToolTip": "CubeTexture.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T22:00:46.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CubeTexture.h",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\CubeTexture.h",
+              "RelativeDocumentMoniker": "CubeTexture.h",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\CubeTexture.h",
+              "RelativeToolTip": "CubeTexture.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T21:39:15.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window.h",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Window.h",
+              "RelativeDocumentMoniker": "Window.h",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Window.h",
+              "RelativeToolTip": "Window.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T16:49:10.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TriangleShader.h",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\TriangleShader.h",
+              "RelativeDocumentMoniker": "TriangleShader.h",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\TriangleShader.h",
+              "RelativeToolTip": "TriangleShader.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T16:38:27.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShapeGenerator.h",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.h",
+              "RelativeDocumentMoniker": "ShapeGenerator.h",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.h",
+              "RelativeToolTip": "ShapeGenerator.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-04T23:07:56.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShapeGenerator.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.cpp",
+              "RelativeDocumentMoniker": "ShapeGenerator.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\ShapeGenerator.cpp",
+              "RelativeToolTip": "ShapeGenerator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T23:06:01.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TriangleShader.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\TriangleShader.cpp",
+              "RelativeDocumentMoniker": "TriangleShader.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\TriangleShader.cpp",
+              "RelativeToolTip": "TriangleShader.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T22:18:48.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Texture.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Texture.cpp",
+              "RelativeDocumentMoniker": "Texture.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Texture.cpp",
+              "RelativeToolTip": "Texture.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-06T00:55:39.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-28T22:48:58.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SkyBox.cpp",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\SkyBox.cpp",
+              "RelativeDocumentMoniker": "SkyBox.cpp",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\SkyBox.cpp",
+              "RelativeToolTip": "SkyBox.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-06T11:59:41.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Texture.h",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\Texture.h",
+              "RelativeDocumentMoniker": "Texture.h",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\Texture.h",
+              "RelativeToolTip": "Texture.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-06T03:03:13.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "skybox.vert",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\skybox.vert",
+              "RelativeDocumentMoniker": "skybox.vert",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\skybox.vert",
+              "RelativeToolTip": "skybox.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T23:12:50.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "triangle.vert",
+              "DocumentMoniker": "C:\\OpenGLProject\\HelloShader\\triangle.vert",
+              "RelativeDocumentMoniker": "triangle.vert",
+              "ToolTip": "C:\\OpenGLProject\\HelloShader\\triangle.vert",
+              "RelativeToolTip": "triangle.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T23:12:40.556Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
