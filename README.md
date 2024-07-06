@@ -215,9 +215,4 @@ ShapeGenerator is initialized again just to call the SetCubeShape function and c
 window.SetRendererFunction is set and ready to loop all of the above and the draw calls from ShapeGenerator class.
 window.Run() called to start the renderer function then destory the window when it's closed.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Gained Experience:
 This project is still ongoing process and there are few more things I can image myself doing to improve and develop this into a decent Shader Engine in the future.
-Most silly thing that happened was that I had commented out CubeTexture.h in the main.cpp and looked for the problem in all other places for about 2 hours before realizing it.
-Best thing was the youtube tutorials by Cherno and Victor Gordan and the worst thing was using gpt, it mostly confused me but 
-was quite useful for getting vertices and indices data for ShapeDefiner and answering random questions.
-Most clever thing I did was to sit down with pen and paper to plan in OOP style, also implementing bug trackers was a good thing, there is still a bug in my VAO tho but program runs without (almost) no problem.
