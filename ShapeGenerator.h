@@ -47,4 +47,4 @@ private:
     glm::vec3 color;
 };
 
-#endif // SHAPE_GENERATOR_H
+#endif
