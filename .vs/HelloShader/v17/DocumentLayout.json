@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -106,11 +110,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
+              "Title": "Matrix.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Matrix.cpp",
+              "RelativeDocumentMoniker": "Matrix.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Matrix.cpp",
+              "RelativeToolTip": "Matrix.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T16:45:08.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "cubemaps.frag",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemaps.frag",
               "RelativeDocumentMoniker": "cubemaps.frag",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "cubemap.vert",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\cubemap.vert",
               "RelativeDocumentMoniker": "cubemap.vert",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "skybox.frag",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.frag",
               "RelativeDocumentMoniker": "skybox.frag",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "triangle.frag",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.frag",
               "RelativeDocumentMoniker": "triangle.frag",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "triangle.vert",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\triangle.vert",
               "RelativeDocumentMoniker": "triangle.vert",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Light.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Light.cpp",
               "RelativeDocumentMoniker": "Light.cpp",
@@ -188,20 +205,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-07T01:10:59.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create3Dobject.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Create3Dobject.cpp",
               "RelativeDocumentMoniker": "Create3Dobject.cpp",
@@ -214,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ShapeDefiner.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.cpp",
               "RelativeDocumentMoniker": "ShapeDefiner.cpp",
@@ -227,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ShapeGenerator.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.h",
               "RelativeDocumentMoniker": "ShapeGenerator.h",
@@ -240,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Skybox.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\SkyBox.h",
               "RelativeDocumentMoniker": "SkyBox.h",
@@ -253,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TriangleShader.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.h",
               "RelativeDocumentMoniker": "TriangleShader.h",
@@ -266,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "lightSource.frag",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\lightSource.frag",
               "RelativeDocumentMoniker": "lightSource.frag",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "lightSource.vert",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\lightSource.vert",
               "RelativeDocumentMoniker": "lightSource.vert",
@@ -292,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Skybox.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\SkyBox.cpp",
               "RelativeDocumentMoniker": "SkyBox.cpp",
@@ -305,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Window.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Window.cpp",
               "RelativeDocumentMoniker": "Window.cpp",
@@ -318,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Create3Dobject.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Create3Dobject.h",
               "RelativeDocumentMoniker": "Create3Dobject.h",
@@ -331,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ShapeDefiner.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeDefiner.h",
               "RelativeDocumentMoniker": "ShapeDefiner.h",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ShapeGenerator.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp",
               "RelativeDocumentMoniker": "ShapeGenerator.cpp",
@@ -357,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "skybox.vert",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\skybox.vert",
               "RelativeDocumentMoniker": "skybox.vert",
@@ -370,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Headers.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Headers.h",
               "RelativeDocumentMoniker": "Headers.h",
@@ -383,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Light.h",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Light.h",
               "RelativeDocumentMoniker": "Light.h",
@@ -396,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CubeTexture.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\CubeTexture.cpp",
               "RelativeDocumentMoniker": "CubeTexture.cpp",
@@ -408,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TriangleShader.cpp",
               "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\TriangleShader.cpp",
               "RelativeDocumentMoniker": "TriangleShader.cpp",
