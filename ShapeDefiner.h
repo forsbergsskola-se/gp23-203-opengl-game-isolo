@@ -6,12 +6,8 @@
 
 class ShapeDefiner
 {
-    
+
 public:
-
-
-    std::vector<float> GetCubemapVertices();
-    std::vector<unsigned int> GetCubemapIndices();
 
 
     std::vector<float> GetTriangleVertices(bool texCoordWanted);

@@ -1,19 +1,33 @@
-Shader- a program that's created by following Open GL tutorials in C++ with custom design.
+HelloShader- a program created by following Open GL tutorials in C++ and careful planing of custom classes with flexiblity, expandability and maintainability in mind for learning purposes and potentially become a simple Shader Engine and or a Game Engine with transformation based animations. 
 
-The main idea with this program was to learn how game Engines are made with OpenGL by follows tutorials and also to lay the ground for an Engine that allows the user draw different shapes, apply texture, colors and create transformation based animations.
+My Project have in total 11 classes and 4 sets of shaders (4x vertex shaders, 4x fragment shaders), and the program can;
+-Create a simple window.
+-Create a camera with inputs.
+-Draw basic geometric shapes, both 2D and 3D.
+-Load and Apply texture to any or all of the drawn shapes.
+-Load and Apply cubemap skybox with images.
+-Apply dynamic colors for cubemap skybox.
+-Apply Phong Lightning model (ambient+ diffuse + specular Lightnings) with shininess and emissive strenghts.
+-Apply transformation for every object independently. (including the Lightning)
+-Apply RGBA for every object independently. (including the Lightning)
 
-This program has a single class that handles all the drawing of basic geometric shapes such as triangle, pyramid, plane, cube, and sphere.
+The program is also user-friendly and flexible, allowing the user to create any shape with a single function call thanks to a factory class called (Create3Dobject) and this class encapsulates all initializations and function calls for each and every object, keeping the main class short and clean.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+This program has a single class that handles all the drawing of basic geometric shapes such as triangle, pyramid, plane, cube, and sphere etc.
 
 ShapeGenerator - Overview
-The header file defines the ShapeGenerator class, outlining its structure with public and private sections. The public section contains functions that can be called and used by other classes, such as initializing and destroying the class, setting up and drawing a shape, and applying transformations or colors to a geometric shape.
 
-In this class, many parameters in the public functions are marked as const and are passed by reference. This means that the functions can use the data from these parameters but it cannot modify them. This const helps prevent accidental or unintended changes to these parameters and makes sure that the function only uses the data provided when it is called.
+The header file defines the ShapeGenerator class skeleton, with public and private sections. 
+The public section contains functions that can be called and used by other classes, such as initializing and destroying the class, setting up and drawing a shape, and applying transformations or colors to a geometric shape.
+
+In this class, many parameters in the public functions are marked as const and are passed by reference. This means that the functions can use the data from these parameters but it cannot modify them. This const helps prevent accidental or unintended changes to these parameters and makes sure that the function only uses the data provided when it is called. 
 
 SetShape Function
 This function is responsible for setting up the shape by receiving vertex and index data. It initializes the OpenGL buffers (VBO, EBO, and VAO) and configures how the vertex attributes (position, normals, and optionally texture coordinates) are stored and accessed in the GPU.
 
-The SetShape function takes vertices data of type float and indices data of type unsigned int, both passed by const reference. This means the function will not alter the contents of vertices or indices. The function also includes a boolean flag includeTextureCoords that determines whether texture coordinates should be processed. 
-This flag is not const and allows the function to modify its behavior based on its value.
+The SetShape function takes vertices data of type float and indices data of type unsigned int, both passed by const reference. This means the function will not alter the contents of vertices or indices. The function also includes a boolean flag includeTextureCoords that determines whether texture coordinates should be processed. This flag is not const and allows the function to modify its behavior based on its value.
 
 Draw Function
 The Draw function handles rendering the shape on the screen. It applies the model transformations (position, rotation, scale), calculates the necessary matrices (view, projection, MVP), and activates the shader program to render the shape with the correct properties.
@@ -21,10 +35,10 @@ Internal data like color and light properties are passed to the shader, but thes
 If a texture is provided, the function binds it and informs the shader to use it; otherwise, it renders the shape without a texture. This conditional logic adds flexibility to how the shape is rendered and gives the user an option.
 
 Transformation Function
-This function updates the position, rotation, and scale of the shape. These transformations are crucial for positioning the shape in the 3D world and altering its appearance.
+This function updates the position, rotation, and scale of the shape. These transformations are needed for positioning the shape in the 3D world and altering its appearance.
 The function directly updates the internal state of the shape, and const makes sure the input parameters are not altered.
 
 getVBO() Function
-In the public section of this class, the getVBO() function is marked as const, meaning it doesn't modify the state of the ShapeGenerator object. This function returns the private member ShapeVBO, the encapsulation allows access to this internal data without exposing the ability to modify it. So, the const keyword here makes sure this function can be called on a const instance of ShapeGenerator, but that calling getVBO() will not alter any class members.
+In the public section of this class, the getVBO() function is marked as const, meaning it doesn't modify the state of the ShapeGenerator object. This function returns the private member ShapeVBO, the encapsulation allows access to this internal data without exposing the ability to modify it and the const keyword here makes sure this function can be called on a const instance of ShapeGenerator, but that calling getVBO() will not alter any class members.
 
 

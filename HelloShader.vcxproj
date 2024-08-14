@@ -182,8 +182,6 @@
   <ItemGroup>
     <None Include="cubemap.vert" />
     <None Include="cubemaps.frag" />
-    <None Include="lighting.frag" />
-    <None Include="lighting.vert" />
     <None Include="lightSource.frag" />
     <None Include="lightSource.vert" />
     <None Include="skybox.frag" />

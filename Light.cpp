@@ -2,9 +2,9 @@
 
 Light::Light()
 	: lightSourceVAO(0), lightSourceEBO(0), lightSourceVBO(0), lightPos(glm::vec3(0.0f)),
-	rotation(glm::quat(1.0f, 0.0f, 0.0f, 0.0f)), scale(glm::vec3(1.0f)), lightColor(glm::vec3(1.0f)),
-	lightShader("triangle.vert", "triangle.frag"), lightSourceShader("lightSource.vert", "lightSource.frag"),
-	window(window), camera(camera)
+	rotation(glm::quat(1.0f, 0.0f, 0.0f, 0.0f)), scale(glm::vec3(1.0f)), lightSourceColor(glm::vec3(1.0f)),
+	lightSourceShader("lightSource.vert", "lightSource.frag"),
+	window(window), camera(camera), lightShader(lightShader)
 {
 	// Constructor initializes member variables and loads shaders
 }
@@ -38,9 +38,11 @@ void Light::LightShape(const std::vector<float>& lightSourceVertices, const std:
 	CheckGLError("Generating and binding EBO in Light.cpp");
 
 	// Set position attribute pointers
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
 	CheckGLError("Setting position attribute pointer in Light.cpp");
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+	glEnableVertexAttribArray(1);
 
 	// Unbind the VAO to prevent accidental modification
 	glBindVertexArray(0);
@@ -61,7 +63,6 @@ void Light::LightOn(Window& window, Camera& camera, bool showLightSource)
 	model = glm::scale(model, scale);
 
 	glm::mat4 MVP = projection * view * model;
-	glm::vec3(lightColor);
 
 	if (showLightSource)
 	{
@@ -70,10 +71,7 @@ void Light::LightOn(Window& window, Camera& camera, bool showLightSource)
 
 		glBindVertexArray(lightSourceVAO);
 		CheckGLError("lightSourceShader vertex array binding");
-
-		lightShader.SetVec3("lightColor", lightColor = glm::vec3(1.0, 1.0, 1.0));
-		CheckGLError("lightSourceShader lightColor uniform");
-
+		lightSourceShader.SetColor("lightSourceColor", lightSourceColor);
 		lightSourceShader.SetMat4("lightMVP", MVP);
 		CheckGLError("lightSourceShader MVP uniform");
 
@@ -83,18 +81,18 @@ void Light::LightOn(Window& window, Camera& camera, bool showLightSource)
 		glBindVertexArray(0);
 	}
 }
-
-void Light::SetPosition(const glm::vec3& lightPos) 
+void Light::SetPositionAndColor(TriangleShader& lightShader, const glm::vec3& lightPos, const glm::vec3& lightSourceColor)
 {
 	this->lightPos = lightPos;
+	this->lightSourceColor = lightSourceColor;
 }
-void Light::SetScale(const glm::vec3& scale) 
+void Light::SetScale(const glm::vec3& scale)
 {
 	this->scale = scale;
 }
 void Light::CheckGLError(const std::string& location) {
 	GLenum err;
-	while ((err = glGetError()) != GL_NO_ERROR) 
+	while ((err = glGetError()) != GL_NO_ERROR)
 	{
 		std::cerr << "OpenGL error in " << location << ": " << err << std::endl;
 	}

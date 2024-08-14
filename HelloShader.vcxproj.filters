@@ -133,12 +133,6 @@
     <None Include="lightSource.frag">
       <Filter>Resource Files\TriangleShader</Filter>
     </None>
-    <None Include="lighting.frag">
-      <Filter>Resource Files\TriangleShader</Filter>
-    </None>
-    <None Include="lighting.vert">
-      <Filter>Resource Files\TriangleShader</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="TextureImug.png">

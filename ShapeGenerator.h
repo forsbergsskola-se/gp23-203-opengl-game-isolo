@@ -9,7 +9,7 @@
 #include "CubeTexture.h"
 #include "Camera.h"
 #include "Window.h"
-class ShapeGenerator 
+class ShapeGenerator
 {
 public:
     ShapeGenerator();
@@ -17,13 +17,17 @@ public:
     void SetShape(const std::vector<float>& vertices, const std::vector<unsigned int>& indices, bool includeTextureCoords);
 
 
-    void Draw(Window& window, Camera& camera, Texture* texture=nullptr);
+    void Draw(Window& window, Camera& camera, Texture* texture = nullptr);
 
     void Transformation(const glm::vec3& position, float angle, const glm::vec3& axis, const glm::vec3& scale);
 
     void SetShapeColor(const glm::vec3& color);
 
-    GLuint getVBO() const 
+    void SetLightColor(const glm::vec3& lightColor);
+    void SetLightPos(const glm::vec3& lightPos);
+
+
+    GLuint getVBO() const
     {
         return ShapeVBO;
     }
@@ -35,7 +39,7 @@ private:
 
     std::vector<float> vertices;
     std::vector<unsigned int> indices;
-    
+
     TriangleShader shapeShader;
     GLuint ShapeVBO;
     GLuint ShapeEBO;
@@ -45,6 +49,10 @@ private:
     glm::quat rotation;
     glm::vec3 scale;
     glm::vec3 color;
+    glm::vec3 lightColor;
+    glm::vec3 lightPos;
+
+
 };
 
 #endif

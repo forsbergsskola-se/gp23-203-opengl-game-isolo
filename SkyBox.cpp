@@ -4,13 +4,14 @@
 #include "CubeTexture.h"
 
 Skybox::Skybox()
-    : 
+    :
     skyboxShader("skybox.vert", "skybox.frag"),
     SkyboxVAO(0),
     SkyboxVBO(0),
     SkyboxEBO(0),
     window(window),
-    camera(camera)
+    camera(camera),
+    useSkyTexture(useSkyTexture)
 {}
 void Skybox::SetSkybox(const std::vector<float>& vertices, const std::vector<unsigned int>& indices)
 {
@@ -33,35 +34,52 @@ void Skybox::SetSkybox(const std::vector<float>& vertices, const std::vector<uns
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, SkyboxEBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, skyboxIndices.size() * sizeof(unsigned int), skyboxIndices.data(), GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
     glBindVertexArray(0);
 
 }
 
-void Skybox::DrawSkybox(Window& window, Camera& camera, CubeTexture& skyTexture)
+void Skybox::DrawSkybox(Window& window, Camera& camera, CubeTexture* useSkyTexture)
 {
     float aspectRatio = static_cast<float>(window.getWidth()) / static_cast<float>(window.getHeight());
 
-    glm::mat4 skyView = glm::mat4(glm::mat3(camera.GetViewMatrix())); // Remove translation
+    glm::mat4 skyView = glm::mat4(glm::mat3(camera.GetViewMatrix()));
     glm::mat4 skyProjection = camera.GetProjectionMatrix(aspectRatio);
 
     glDepthMask(GL_FALSE);
+    float timeValue = glfwGetTime();
 
     std::cout << "Activating Triangle Shader in Skybox.." << std::endl;
     skyboxShader.Activate();
 
     skyboxShader.SetMat4("skyView", skyView);
     skyboxShader.SetMat4("skyProjection", skyProjection);
-    skyTexture.Bind();
+
+    skyboxShader.SetFloat("time", timeValue);
+
+
+    if (useSkyTexture)
+    {
+        useSkyTexture->Bind();
+        skyboxShader.SetBool("useSkyTexture", true);
+    }
+    else
+    {
+        skyboxShader.SetBool("useSkyTexture", false);
+
+    }
     skyboxShader.SetInt("skybox", 0);
 
     glBindVertexArray(SkyboxVAO);
     glDrawElements(GL_TRIANGLES, skyboxIndices.size(), GL_UNSIGNED_INT, nullptr);
     glBindVertexArray(0);
 
-    skyTexture.Unbind();
+    if (useSkyTexture)
+    {
+        useSkyTexture->Unbind();
+    }
 
     glDepthMask(GL_TRUE);
 

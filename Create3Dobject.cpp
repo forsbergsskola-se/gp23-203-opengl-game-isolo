@@ -5,10 +5,10 @@
 #include "SkyBox.h"
 
 
-Create3Dobject::Create3Dobject(): window(window), camera(camera){}
-void Create3Dobject::CreateCube(Window& window, Camera& camera, const glm::vec4& colors, const glm::vec3& positions,  const glm::vec3& scale, Texture* texture)
-{	
-	ShapeDefiner defineCube;
+Create3Dobject::Create3Dobject() : window(window), camera(camera) {}
+void Create3Dobject::CreateCube(Window& window, Camera& camera, const glm::vec4& colors, const glm::vec3& positions, const glm::vec3& scale, Texture* texture)
+{
+    ShapeDefiner defineCube;
     ShapeGenerator genCube;
 
     std::vector<float> cubeVertices = defineCube.GetCubeVertices(true); // For texture, set true.
@@ -17,8 +17,8 @@ void Create3Dobject::CreateCube(Window& window, Camera& camera, const glm::vec4&
     genCube.Transformation(glm::vec3(positions), 1.0f, glm::vec3(1.0f), glm::vec3(scale)); // Unity who?
     genCube.SetShapeColor(glm::vec4(colors));
 
-    
-    if (texture !=nullptr)
+
+    if (texture != nullptr)
     {
         genCube.Draw(window, camera, texture);
     }
@@ -27,15 +27,27 @@ void Create3Dobject::CreateCube(Window& window, Camera& camera, const glm::vec4&
         genCube.Draw(window, camera, nullptr);
     }
 }
-/*
-void Create3Dobject::CreateLight(Window& window, Camera& camera, bool showSource)
+void Create3Dobject::CreateTriangle(Window& window, Camera& camera, const glm::vec4& colors, const glm::vec3& positions, const glm::vec3& scale, Texture* texture)
 {
-    ShapeDefiner defineCubemap;
-    Skybox skybox;
-    defineCubemap.GetCubemapVertices();
-    
-} 
-*/
+    ShapeDefiner defineTriangle;
+    ShapeGenerator genTriangle;
+
+    std::vector<float> triangleVertices = defineTriangle.GetTriangleVertices(true); // For texture, set true.
+    std::vector<unsigned int> triangleIndices = defineTriangle.GetTriangleIndices();
+    genTriangle.SetShape(triangleVertices, triangleIndices, true); // Set true for texture
+    genTriangle.Transformation(glm::vec3(positions), 1.0f, glm::vec3(1.0f), glm::vec3(scale)); // Unity who?
+    genTriangle.SetShapeColor(glm::vec4(colors));
+
+
+    if (texture != nullptr)
+    {
+        genTriangle.Draw(window, camera, texture);
+    }
+    else
+    {
+        genTriangle.Draw(window, camera, nullptr);
+    }
+}
 void Create3Dobject::CreatePyramid(Window& window, Camera& camera, const glm::vec4& colors, const glm::vec3& positions, const glm::vec3& scale, Texture* texture)
 {
     ShapeDefiner definePyramid;
@@ -100,5 +112,3 @@ void Create3Dobject::CreateSphere(Window& window, Camera& camera, const glm::vec
     }
 
 }
-
-

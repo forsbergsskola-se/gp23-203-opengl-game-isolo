@@ -8,7 +8,7 @@
 #include "Camera.h"
 #include "CubeTexture.h"
 
-class Skybox 
+class Skybox
 {
 public:
 
@@ -16,7 +16,7 @@ public:
     Skybox();
     void SetSkybox(const std::vector<float>& vertices, const std::vector<unsigned int>& indices);
 
-    void DrawSkybox(Window& window, Camera& camera, CubeTexture& skyTexture);
+    void DrawSkybox(Window& window, Camera& camera, CubeTexture* useSkyTexture = nullptr);
 
     ~Skybox();
     GLuint SkyboxVAO;
@@ -27,11 +27,13 @@ private:
 
     std::vector<float> skyboxVertices;
     std::vector<unsigned int> skyboxIndices;
-   
+
     Window& window;
     Camera& camera;
+    CubeTexture* useSkyTexture;
+
     TriangleShader skyboxShader;
 
     void CheckGLError(const std::string& where);
-  
+
 };

@@ -15,6 +15,4 @@
 #include "Texture.h"
 #include "Skybox.h"
 #include "Create3Dobject.h"
-#include "Cubemap.h"
-#include "Cubemap.h"
 #include "Light.h"

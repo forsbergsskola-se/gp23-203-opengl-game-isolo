@@ -12,12 +12,9 @@ public:
 
     void LightOn(Window& window, Camera& camera, bool showLightSource);
 
-    void SetLightColor(const glm::vec3& lightColor);
-
-    void SetPosition(const glm::vec3& lightPos);
+    void SetPositionAndColor(TriangleShader& lightShader, const glm::vec3& lightPos, const glm::vec3& lightColor);
 
     void SetScale(const glm::vec3& scale);
-
 
     void CheckGLError(const std::string& location);
 
@@ -25,8 +22,10 @@ public:
 private:
 
 
-    glm::vec3 lightColor;
+    glm::vec3 lightSourceColor;
     glm::vec3 lightPos;
+
+
     glm::quat rotation;
     glm::vec3 scale;
 
@@ -39,8 +38,8 @@ private:
     std::vector<unsigned int> lightSourceIndices;
 
     TriangleShader lightSourceShader;
-    TriangleShader lightShader;
 
+    TriangleShader& lightShader;
     Window& window;
     Camera& camera;
 };

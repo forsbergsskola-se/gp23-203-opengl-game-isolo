@@ -6,10 +6,10 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <string>
 
-class TriangleShader 
+class TriangleShader
 {
 public:
-    
+
     TriangleShader(const char* vertexPath, const char* fragmentPath);
     ~TriangleShader();
 
@@ -33,7 +33,7 @@ public:
     GLuint ID;
 
 private:
-    
+
     void CheckCompileErrors(GLuint shader, std::string type) const;
     std::string ReadShaderFile(const char* shaderPath) const;
 
