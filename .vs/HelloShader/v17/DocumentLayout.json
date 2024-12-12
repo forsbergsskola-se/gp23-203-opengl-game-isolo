@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Cubemap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F54B29E7-EF44-4472-BA05-9B4DA5EAF423}|HelloShader.vcxproj|solutionrelative:Cubemap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShapeGenerator.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp",
+              "RelativeDocumentMoniker": "ShapeGenerator.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp",
+              "RelativeToolTip": "ShapeGenerator.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAIsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T18:09:22.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cubemap.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Cubemap.cpp",
+              "RelativeDocumentMoniker": "Cubemap.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\Cubemap.cpp",
+              "RelativeToolTip": "Cubemap.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T16:55:27.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-07T01:10:59.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
