@@ -32,14 +32,10 @@
               "RelativeDocumentMoniker": "ShapeGenerator.cpp",
               "ToolTip": "C:\\Users\\Kal-E\\UnityProjects\\VisualStudioProjects\\gp23-203-opengl-game-isolo\\ShapeGenerator.cpp",
               "RelativeToolTip": "ShapeGenerator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAIsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-14T18:09:22.586Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -63,7 +59,8 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-07T01:10:59.279Z"
+              "WhenOpened": "2024-07-07T01:10:59.279Z",
+              "EditorCaption": ""
             }
           ]
         }
