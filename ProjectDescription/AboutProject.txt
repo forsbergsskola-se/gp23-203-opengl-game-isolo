@@ -10,7 +10,7 @@ My Project have in total 11 classes and 4 sets of shaders (4x vertex shaders, 4x
 -Apply dynamic colors for cubemap skybox.
 -Apply Phong Lightning model (ambient+ diffuse + specular Lightnings) with shininess and emissive strenghts.
 -Apply transformation for every object independently. (including the Lightning)
--Apply RGBA for every object independently. (including the Lightning)
+-Apply RGBA for every object independently.
 
 The program is also user-friendly and flexible, allowing the user to create any shape with a single function call thanks to a factory class called (Create3Dobject) and 
 this class encapsulates all initializations and function calls for each and every object, keeping the main class short and clean.
